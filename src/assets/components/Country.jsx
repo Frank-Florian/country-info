@@ -23,13 +23,13 @@ const Country = ({ countryCode }) => {
     <div>
       <h2>{country.name}</h2>
       <img src={country.flag} alt={`${country.name} flag`} width="200" />
-      <h3>Demography</h3>
-      <p>Population: {country.population}</p>
-      <p>Area: {country.area} km²</p>
-      <h3>Location</h3>
-      <p>Continent: {country.region}</p>
-      <p>Region: {country.subregion}</p>
-      <p>Subregion: {country.subregion}</p>
+      <h3>datos demográficos</h3>
+      <p>Población: {country.population}</p>
+      <p>Área: {country.area} km²</p>
+      <h3>Ubicación</h3>
+      <p>Continente: {country.region}</p>
+      <p>Región: {country.subregion}</p>
+      <p>Subregión: {country.subregion}</p>
       <h3>Capital</h3>
       <p>{country.capital}</p>
     </div>
